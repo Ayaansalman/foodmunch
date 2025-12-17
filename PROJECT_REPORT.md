@@ -556,7 +556,7 @@ The project successfully addresses the requirements for a Complex Computing Prob
 ## Appendix
 
 ### A. GitHub Repository
-**URL**: [To be added after repository creation]
+**URL**: https://github.com/Ayaansalman/foodmunch
 
 ### B. Deployed Application
 **URL**: [To be added after deployment]
