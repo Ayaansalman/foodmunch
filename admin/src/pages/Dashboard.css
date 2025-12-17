@@ -1,0 +1,17 @@
+.dashboard-page .stat-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.dashboard-page .stat-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background: var(--primary-gradient);
+    opacity: 0.05;
+    border-radius: 50%;
+    transform: translate(30%, -30%);
+}

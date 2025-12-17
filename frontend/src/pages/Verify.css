@@ -1,0 +1,50 @@
+.verify-page {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.verify-content {
+    text-align: center;
+    padding: 3rem;
+    max-width: 500px;
+}
+
+.verify-icon {
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+    animation: fadeInUp 0.5s ease;
+}
+
+.verify-content h2 {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.verify-content p {
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.verify-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.verify-content.success .verify-icon {
+    animation: pulse 2s infinite;
+}
+
+.verify-content.failed h2 {
+    color: var(--error);
+}
+
+.verify-content.error h2 {
+    color: var(--warning);
+}
